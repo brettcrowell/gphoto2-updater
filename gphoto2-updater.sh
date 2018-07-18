@@ -134,6 +134,16 @@ echo "-----------------------------------------"
 echo
 
 apt-get remove -y gphoto2 libgphoto2*
+rm /usr/local/bin/gphoto2
+rm /usr/local/bin/gphoto2-config
+rm /usr/local/bin/gphoto2-port-config
+rm -R /usr/local/lib/libgphoto2
+rm -R /usr/local/lib/libgphoto2_port
+rm /usr/local/lib/libgphoto2.la
+rm /usr/local/lib/libgphoto2_port.la
+rm /usr/local/lib/libgphoto2.so*
+rm /usr/local/lib/libgphoto2_port.so*
+rm -R /usr/local/lib/udev
 
 echo
 echo "-----------------------"
